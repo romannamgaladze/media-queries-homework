@@ -17,9 +17,10 @@ header {
   padding-left: 20px;
   padding-right: 20px;
 }
-.container {
+.container1 {
   max-width: 1400px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 .div-header {
   display: flex;
@@ -62,4 +63,75 @@ header {
 
 .li-item:hover::after {
   width: 100%;
+}
+
+/* ..........MAIN........... */
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 2px solid green;
+  padding: 0 5px;
+}
+.main-section {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.main-picture {
+  position: absolute;
+  top: -155px;
+}
+
+/* .............SECTION1............ */
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  line-height: 40px;
+}
+.div-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.image-item {
+  position: relative;
+  transition: 0.5s ease-in;
+  border-radius: 15px;
+}
+.image-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 5px 10px 0px rgba(112, 107, 107, 0.22);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(112, 107, 107, 0.22);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(112, 107, 107, 0.22);
+}
+
+/* .........PARA-SECTION.............. */
+.para-section {
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.para-middle {
+  margin: 18px 0;
+}
+.para-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.magneto {
+  padding: 15px 50px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #0a22f4;
 }
