@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  .div-nav-button {
+    display: none;
+  }
+  .div-header {
+    justify-content: center;
+  }
+  .div-images {
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    display: none;
+  }
+  .footer-para {
+    display: none;
+  }
+  .footer-information {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .copyright {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
