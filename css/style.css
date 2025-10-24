@@ -135,3 +135,90 @@ p {
   font-weight: 500;
   background-color: #0a22f4;
 }
+
+/* ........FOOTER.......... */
+footer {
+  width: 100%;
+  background-color: #0020f4;
+  margin-top: 180px;
+}
+.footer-information {
+  max-width: 100%;
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.contact {
+  max-width: 500px;
+  border: 2px solid white;
+}
+
+iframe {
+  max-width: 500px;
+  height: 200px;
+  border-radius: 15px;
+}
+h2 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+}
+footer p {
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.div-phone {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 250px;
+}
+.div-mail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 280px;
+}
+footer img {
+  width: 60px;
+}
+span {
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 22px;
+}
+.footer-form {
+  max-width: 500px;
+  border: 2px solid white;
+  padding-top: 55px;
+}
+
+.input-name,
+.input-email,
+.input-tel,
+.input-text {
+  width: 100%;
+  height: 70px;
+  border: 1px solid rgba(180, 179, 179, 0.4);
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: transparent;
+  margin-bottom: 27px;
+}
+.input-text {
+  min-height: 150px;
+}
+
+.footer-button {
+  padding: 15px 35px;
+  color: #171717;
+  font-weight: 700;
+}
