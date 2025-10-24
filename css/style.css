@@ -20,7 +20,7 @@ header {
 .container1 {
   max-width: 1400px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .div-header {
   display: flex;
@@ -69,7 +69,7 @@ header {
 .container2 {
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   padding: 0 5px;
 }
 .main-section {
@@ -101,7 +101,7 @@ h1 {
 .image-item {
   position: relative;
   transition: 0.5s ease-in;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 .image-item:hover {
   transform: scale(1.02);
@@ -137,6 +137,9 @@ p {
 }
 
 /* ........FOOTER.......... */
+footer .container1 {
+  padding-top: 100px;
+}
 footer {
   width: 100%;
   background-color: #0020f4;
@@ -144,14 +147,13 @@ footer {
 }
 .footer-information {
   max-width: 100%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
 }
 .contact {
   max-width: 500px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 iframe {
@@ -193,7 +195,7 @@ span {
 }
 .footer-form {
   max-width: 500px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   padding-top: 55px;
 }
 
@@ -203,7 +205,7 @@ span {
 .input-text {
   width: 100%;
   height: 70px;
-  border: 1px solid rgba(180, 179, 179, 0.4);
+  /* border: 1px solid rgba(180, 179, 179, 0.4); */
   border-radius: 5px;
   padding-left: 10px;
   outline: none;
@@ -221,4 +223,20 @@ span {
   padding: 15px 35px;
   color: #171717;
   font-weight: 700;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.span-heart {
+  color: red;
+  font-size: 32px;
+}
+.para-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
